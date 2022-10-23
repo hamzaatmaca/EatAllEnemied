@@ -5,7 +5,7 @@ const canvas = document.getElementById("canvas");
 canvas.width = window.innerWidth - 5;
 canvas.height = window.innerHeight - 5;
 const ctx = canvas.getContext("2d");
-document.body.append(canvas);
+
 
 const soldier = new Soldier(canvas.width / 2, canvas.height / 2, 40);
 
