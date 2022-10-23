@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+html,body{
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+canvas{
+    background-image: url("../img/map.png");
+    
+}
